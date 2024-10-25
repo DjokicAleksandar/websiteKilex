@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Trepavice 1",
+        "badge": "Trepavice",
+        "price": 450,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Trepavice 2",
+        "badge": "Trepavice",
+        "price": 550,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Trepavice 3",
+        "badge": "Trepavice",
+        "price": 490,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Trepavice 4",
+        "badge": "Trepavice",
+        "price": 500,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Trepavice 5",
+        "badge": "Trepavice",
+        "price": 670,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Trepavice 6",
+        "badge": "Trepavice",
+        "price": 690,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Trepavice 7",
+        "badge": "Trepavice",
+        "price": 700,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Trepavice 8",
+        "badge": "Trepavice",
+        "price": 900,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Trepavice 9",
+        "badge": "Trepavice",
+        "price": 720,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Trepavice 10",
+        "badge": "Trepavice",
+        "price": 550,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Trepavice 11",
+        "badge": "Trepavice",
+        "price": 520,
+        "image": "Images/trepaviceCrne.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Trepavice 12",
+        "badge": "Trepavice",
+        "price": 720,
+        "image": "Images/trepaviceCrne.jpg"
+    }
+]

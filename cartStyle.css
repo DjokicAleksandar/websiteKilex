@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #0f0904;
+}
+
+body{
+    top: 0;
+    left: 0;
+    height: 100%;
+    overflow-x: hidden;
+    min-height: 100vh;
+    background-color: #FFFECB;
+}
+
+.navbar{
+    top: 0;
+    left: 0;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f0904;
+    transition: .4s;
+}
+
+.socialMedia img{
+    width: 30px;
+    height: 30px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+}
+
+.form{
+    padding: 30px;
+    width: 100%;
+    height: max-content;
+}
+
+.products{
+    padding: 20px;
+    width: 100%;
+    height: max-content;
+}
+
+.nameLastName{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.firstName, .lastName{
+    padding-top: 10px;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.nameLastName input{
+    font-size: large;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #b39167;
+    transition: .2s;
+    padding: 5px;
+    background-color: #FFFECB;
+}
+
+.email, .city, .adress, .posta, .phone{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.email input, .city input, .adress input, .posta input, .phone input{
+    font-size: large;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: #b39167;
+    background-color: #FFFECB;
+    transition: .2s;
+    padding: 5px;
+}
+
+.firstName h3, .lastName h3, .email h3, .city h3, .adress h3, .posta h3, .phone h3{
+    font-weight: 400;
+}
+
+#firstName:focus, #lastName:focus, #email:focus, #city:focus, #adress:focus, #posta:focus, #phone:focus{
+    background-color: #DAB684;
+}
+
+#firstName::placeholder, #lastName::placeholder, #email::placeholder, #city::placeholder, #adress::placeholder,
+#posta::placeholder, #phone::placeholder{
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.paymentMethod{
+    width: 100%;
+    background-color: #DAB684;
+    border-radius: 20px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.paymentMethod h3{
+    margin-bottom: 20px;
+}
+
+.kes, .kartica{
+    margin-bottom: 20px;
+}
+
+.kesText, .karticaText{
+    background-color: #FFFECB;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.productList{
+    width: 100%;
+    background-color: #DAB684;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.productList td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.productList .header{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.paying{
+    padding: 10px;
+    background-color: #DAB684;
+    font-size: large;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order{
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+@media screen and (max-width: 900px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
